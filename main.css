@@ -1,0 +1,23 @@
+
+ 
+html { 
+    background: url('123.jpeg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+  }
+ h1
+{
+    font-size:50px;
+    color:  #e6e6e6;
+}
+h2{
+    font-size: 18;
+    color:  #e6e6e6;
+}
+p {
+    color:  #e6e6e6;
+    
+}
