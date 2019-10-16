@@ -6,18 +6,43 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
+    font-family: 'Parisienne', cursive;
+    
+    
   }
  h1
 {
     font-size:50px;
     color:  #e6e6e6;
+    margin-bottom: 0px;
+    font-weight: normal;
 }
 h2{
-    font-size: 18;
+    font-size: 18px;
     color:  #e6e6e6;
+    margin-top: 0px;
 }
 p {
     color:  #e6e6e6;
     
 }
+
+.me  {
+    height: 150px;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: white;
+}
+    
+ 
+
+#wrapper {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 14px;
+    margin-top: ;
+
+}
+   
