@@ -1,0 +1,30 @@
+
+ 
+html { 
+    background: url('123.jpeg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Parisienne', cursive; 
+    text-align: center;
+    color: white;
+}
+    
+
+.container{
+   
+    padding-top
+}
+
+#links{
+    padding: 50px;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  #links:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
