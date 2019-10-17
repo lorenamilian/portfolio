@@ -6,21 +6,22 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    font-family: 'Jomolhari', serif;
+    font-family: 'EB Garamond', serif;
     text-align: center;
+    font-size: 150%;
     
     
   }
  h1
 {
-    font-size:50px;
+    
     color:  #e6e6e6;
     margin-bottom: 0px;
     font-weight: normal;
     
 }
 h2{
-    font-size: 18px;
+   
     color:  #e6e6e6;
     margin-top: 0px;
 }
@@ -43,31 +44,33 @@ p {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    font-size: 14px;
-    margin-top: ;
+    
+    margin-top: 40px;
 
 }
 
 .grey {
     height: 3px;
-    background-color:#38ab7b ;
+    background-color:rgb(75, 111, 134);
     border: none;
     width: 160px;
 
 }
-#myl{
-        link:color: red;
-  
-  
-            visited {
-                color: green;
+
+
+a:link {
+    text-decoration: none;
+    color: #e6e6e6;
   }
   
-        hover {
-              color: hotpink;
+  a:visited {
+    text-decoration: none;
   }
   
- 
-        active {
-                color: blue;
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
   }

@@ -6,18 +6,54 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    font-family: 'Jomolhari', serif;
+    font-family: 'Rochester', cursive;
     text-align: center;
     color: white;
+    font-size: 150%
+
 }
     
 
 .container{
+  back
    
     padding-top
 }
 
-#links{
+.back:link {
+    background-color:rgb(116, 79, 67);
+    color: rgb(213, 216, 216);
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    float:right;
+    border-radius: 30px;
+  }
+  
+.back:visited {
+    background-color:rgb(75, 111, 134);
+    color: rgb(213, 216, 216);
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    float: center;
+    
+  }
+  
+.back:hover {
+    background-color:rgb(22, 38, 182);
+    color: rgb(213, 216, 216);
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    float: center;
+  }
+
+
+ #links {
     padding: 50px;
     transition: transform .2s; /* Animation */
     width: 200px;
